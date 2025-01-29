@@ -1,3 +1,3 @@
-import Bugsnag from 'npm:@bugsnag/js'
+import Bugsnag from "npm:@bugsnag/js";
 
-Bugsnag.start('00000000000000000000000000000000')
+Bugsnag.start("00000000000000000000000000000000");

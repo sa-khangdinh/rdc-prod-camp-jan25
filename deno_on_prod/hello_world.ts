@@ -5,8 +5,8 @@ interface IFoo {
 }
 
 const obj: IFoo = {
-  date: new Date()
-}
+  date: new Date(),
+};
 
 obj.date.foo = 42;
 
