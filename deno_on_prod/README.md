@@ -3,30 +3,42 @@
 ## examples
 
 ```bash
-node bugsnag/node/main.js
+node 1_hello_world.js
 ```
 
 ```bash
-deno bugsnag/deno/main.ts
+deno 1_hello_world.ts
 ```
 
 ```bash
-time node fibo.js 42
+node 2_bugsnag/node/main.js
 ```
 
 ```bash
-time deno fibo.ts 42
+deno 2_bugsnag/deno/main.ts
 ```
 
 ```bash
-rustc fibo.rs
-time ./fibo 42
+deno 3_remote_module.ts
+```
+
+```bash
+time node 4_fibo.js 42
+```
+
+```bash
+time deno 4_fibo.ts 42
+```
+
+```bash
+rustc 4_fibo.rs
+time ./4_fibo 42
 ```
 
 ## miscellaneous
 
 ```bash
-rustfmt fibo.rs
+rustfmt *.rs
 ```
 
 ```bash
