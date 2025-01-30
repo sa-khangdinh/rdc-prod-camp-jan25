@@ -19,6 +19,26 @@ deno 2_bugsnag/deno/main.ts
 ```
 
 ```bash
+node 2_fetch.js
+```
+
+```bash
+deno 2_fetch.js
+```
+
+```bash
+deno -N 2_fetch.js
+```
+
+```bash
+deno -N=google.com 2_fetch.js
+```
+
+```bash
+deno -N=pokeapi.co:443 2_fetch.js
+```
+
+```bash
 deno 3_remote_module.ts
 ```
 
